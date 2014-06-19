@@ -21,6 +21,8 @@
 		84EBB6BA1952A94D00360AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EBB69C1952A94D00360AC1 /* UIKit.framework */; };
 		84EBB6C21952A94D00360AC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EBB6C01952A94D00360AC1 /* InfoPlist.strings */; };
 		84EBB6C41952A94D00360AC1 /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBB6C31952A94D00360AC1 /* sampleTests.m */; };
+		84EBB6CE1952B70A00360AC1 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84EBB6CD1952B70A00360AC1 /* status.plist */; };
+		84EBB6D11952BF5800360AC1 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBB6D01952BF5800360AC1 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		84EBB6BF1952A94D00360AC1 /* sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sampleTests-Info.plist"; sourceTree = "<group>"; };
 		84EBB6C11952A94D00360AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84EBB6C31952A94D00360AC1 /* sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleTests.m; sourceTree = "<group>"; };
+		84EBB6CD1952B70A00360AC1 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		84EBB6CF1952BF5800360AC1 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = ../DemoViewController.h; sourceTree = "<group>"; };
+		84EBB6D01952BF5800360AC1 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = ../DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +122,11 @@
 				84EBB6AA1952A94D00360AC1 /* Main.storyboard */,
 				84EBB6AD1952A94D00360AC1 /* ViewController.h */,
 				84EBB6AE1952A94D00360AC1 /* ViewController.m */,
+				84EBB6CF1952BF5800360AC1 /* DemoViewController.h */,
+				84EBB6D01952BF5800360AC1 /* DemoViewController.m */,
 				84EBB6B01952A94D00360AC1 /* Images.xcassets */,
 				84EBB69F1952A94D00360AC1 /* Supporting Files */,
+				84EBB6CD1952B70A00360AC1 /* status.plist */,
 			);
 			path = sample;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				84EBB6B11952A94D00360AC1 /* Images.xcassets in Resources */,
 				84EBB6A31952A94D00360AC1 /* InfoPlist.strings in Resources */,
+				84EBB6CE1952B70A00360AC1 /* status.plist in Resources */,
 				84EBB6AC1952A94D00360AC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 				84EBB6AF1952A94D00360AC1 /* ViewController.m in Sources */,
 				84EBB6A91952A94D00360AC1 /* AppDelegate.m in Sources */,
 				84EBB6A51952A94D00360AC1 /* main.m in Sources */,
+				84EBB6D11952BF5800360AC1 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
